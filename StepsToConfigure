@@ -1,0 +1,13 @@
+Steps to configure and run karma and jasmine in application
+> npm -v
+> npm init
+> npm install karma --save-dev
+> npm install -g karma-cli
+> karma
+> npm install jasmine-core@2.3.4 --no-optional
+> npm install karma-jasmine karma-chrome-launcher --save-dev
+> karma init
+> npm install karma-jasmine-html-reporter --save-dev
+
+
+--no-optional -  hide the warnings
